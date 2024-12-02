@@ -1,0 +1,30 @@
+#demo td {
+  padding: 14px;
+}
+
+h1 {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 50px;
+}
+
+p {
+  font-size: 22px;
+  font-family: "EB Garamond", serif;
+}
+
+/* .btn:hover {
+  color: #fff;
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+} */
+
+.container .content h1 {
+  background-image: url(../imgs/brush-strokes-collection-c1.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+#update-btn {
+  display: none;
+}
