@@ -37,11 +37,13 @@
           <form class="form-control border-0">
             <div class="url-name">
               <label for="webName">Website Name</label>
-              <input type="text" class="form-control my-3" placeholder="Enter The Website Name" id="webName">
+              <input type="text" class="form-control mt-3 mb-2 selectedInput" placeholder="Enter The Website Name" id="webName" autofocus>
+              <div id="webNameError" class="error-message mb-3 text-danger"></div>
             </div>
             <div class="url-link">
               <label for="webUrl"> <i class="fa-solid fa-link text-primary"></i> Website URL</label>
-              <input type="text" class="form-control my-3" placeholder="Enter The Webbsite URL" id="webUrl">
+              <input type="text" class="form-control mt-3 mb-2 selectedInput" placeholder="Enter The Webbsite URL" id="webUrl">
+              <div id="webUrlError" class="error-message mb-3 text-danger"></div>
             </div>
             <button type="button" onclick="addWebsite()" class="btn btn-primary" id="add-btn"> <i class="fa-regular fa-circle-check"></i> Add Website</button>
             <button type="button" onclick="updateWebsite()" class="btn btn-success" id="update-btn"> <i class="fa-solid fa-rotate"></i> Update Website</button>
@@ -72,6 +74,7 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./JS/main.js"></script>
 </body>
 </html>
